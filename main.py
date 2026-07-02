@@ -164,7 +164,7 @@ def process_video():
 
         combined = process_frame(frame)
 
-        cv2.imshow("Video: Original | Grayscale | Canny", combined)
+        cv2.imshow("Video: Original | ROI | LANE DETECTION ", combined)
 
         if cv2.waitKey(25) & 0xFF == ord("q"):
             break
